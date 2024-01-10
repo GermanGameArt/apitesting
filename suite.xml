@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="swapi" verbose="1">
+    <test name="bfr testcase" group-by-instances="true">
+        <classes>
+            <class
+                    name="swapisuites.testActions"/>
+        </classes>
+    </test>
+</suite>
